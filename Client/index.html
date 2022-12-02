@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="tables">
+        <p>
+            <span>Name</span>
+            <span>Cipher</span>
+            <span>Count</span>
+            <span>Consumer</span>
+        </p>
+    </div>
+    <button onclick="create()">Create product</button>
+    <div id="add">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name">
+        <label for="cipher">Cipher</label>
+        <input type="text" id="cipher" name="cipher">
+        <label for="count">Count</label>
+        <input type="text" id="count" name="count">
+        <label for="producer">Producer</label>
+        <input type="text" id="producer" name="producer">
+        <button onclick="addProduct()">Create</button>
+    </div>
+    <div id="update">
+        <label for="name1">Name</label>
+        <input type="text" id="name1" name="name1">
+        <label for="cipher1">Cipher</label>
+        <input type="text" id="cipher1" name="cipher1">
+        <label for="count1">Count</label>
+        <input type="text" id="count1" name="count1">
+        <label for="producer1">Producer</label>
+        <input type="text" id="producer1" name="producer1">
+        <button onclick="updateProduct()">Update</button>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>
